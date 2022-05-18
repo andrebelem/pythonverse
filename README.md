@@ -11,7 +11,7 @@ You will find here scripts, notes, small programs, and some interesting stuff us
 Want to know more ?
 Access [Observatório Oceanográfico] (http://www.observatoriooceanografico.uff.br) or the website of [UFF](http://www.uff.br)
 Want to use the notebooks ?
-Link to our [![DOI](https://zenodo.org/badge/6561219.svg)](https://doi.org/10.5281/zenodo.6561219)
+Link to our [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6561219.svg)](https://doi.org/10.5281/zenodo.6561219)
 
 ---
 # ensino
@@ -20,5 +20,5 @@ Você encontrará aqui *scripts*, notas, pequenos programas, e algumas coisas in
 Quer saber mais ? 
 Acesse [Observatório Oceanográfico](http://www.observatoriooceanografico.uff.br) ou o site da [UFF](http://www.uff.br)
 Quer usar os códigos ?
-Link para nosso [![DOI](https://zenodo.org/badge/6561219.svg)](https://doi.org/10.5281/zenodo.6561219)
+Link para nosso [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6561219.svg)](https://doi.org/10.5281/zenodo.6561219)
 
