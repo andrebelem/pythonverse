@@ -23,13 +23,13 @@ def teste():
     return
 
 def SIDRA2pandas(cod_mun,cod_cultura):
-    ''' (1) obter dados para a cultura (veja aqui http://api.sidra.ibge.gov.br/desctabapi.aspx?c=5457). 
-    por exemplo, Café é a cultura 40139
-    (2) obter o código da cidade (no nosso exemplo, Garça SP é 3516705) 
-    (3) usar o código para baixar os dados de produção na cidade. Note que na API, o nível de cidade é N6 (veja aqui)
-    e os códigos das cidades pode ser baixado aqui 
-    http://api.sidra.ibge.gov.br/desctabapi.aspx?c=5457.
-    Este código só funciona para a tabela 5457'''
+    # (1) obter dados para a cultura (veja aqui http://api.sidra.ibge.gov.br/desctabapi.aspx?c=5457). 
+    # por exemplo, Café é a cultura 40139
+    # (2) obter o código da cidade (no nosso exemplo, Garça SP é 3516705) 
+    # (3) usar o código para baixar os dados de produção na cidade. Note que na API, o nível de cidade é N6 (veja aqui)
+    # e os códigos das cidades pode ser baixado aqui 
+    # http://api.sidra.ibge.gov.br/desctabapi.aspx?c=5457.
+    # Este código só funciona para a tabela 5457
     
     
     vars = ['8331','216','214','112']
@@ -55,8 +55,8 @@ def SIDRA2pandas(cod_mun,cod_cultura):
 
 
 def plotCULTURA(data,**kwargs):
-    ''' data é um dataframe do pandas com o padrão de colunas ano, área plantada, área colhida, quantidade e rendimento.
-    Esta rotina apenas facilita o plot'''
+    # data é um dataframe do pandas com o padrão de colunas ano, área plantada, área colhida, quantidade e rendimento.
+    # Esta rotina apenas facilita o plot
 
     titulo = kwargs.get('titulo','Aqui vai seu título (fonte: PAM IBGE)')
 
