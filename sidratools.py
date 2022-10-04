@@ -49,7 +49,7 @@ def SIDRA2pandas(cod_mun,cod_cultura):
     
     return data2
 
-def plotCULTURA_CIDADE(data,**kwargs):
+def plotCULTURA(data,**kwargs):
     ''' data é um dataframe do pandas com o padrão de colunas ano, área plantada, área colhida, quantidade e rendimento.
     Esta rotina apenas facilita o plot
     '''
