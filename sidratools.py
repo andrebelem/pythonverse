@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import requests
 import warnings
-warnings.filterwarnings('ignore')
+
 
 def teste():
     print('teste')
@@ -30,7 +30,7 @@ def SIDRA2pandas(cod_mun,cod_cultura):
     # e os códigos das cidades pode ser baixado aqui 
     # http://api.sidra.ibge.gov.br/desctabapi.aspx?c=5457.
     # Este código só funciona para a tabela 5457
-    
+    warnings.filterwarnings('ignore')
     
     vars = ['8331','216','214','112']
     vars_names = ['A.plantada','A.colhida','Q.colhida','Rendimento']
