@@ -18,6 +18,9 @@ import requests
 import warnings
 warnings.filterwarnings('ignore')
 
+def teste():
+    print('teste')
+    return
 
 def SIDRA2pandas(cod_mun,cod_cultura):
     ''' (1) obter dados para a cultura (veja aqui http://api.sidra.ibge.gov.br/desctabapi.aspx?c=5457). 
