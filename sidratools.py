@@ -11,7 +11,8 @@
 #
 # ALB @ UFF 2022
 
-# importa o que é necessário para trabalhar aqui 
+# importa o que é necessário para trabalhar aqui
+import matplotlib.pyplot as plt
 import pandas as pd
 import requests
 import warnings
