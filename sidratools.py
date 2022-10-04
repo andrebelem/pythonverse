@@ -47,3 +47,40 @@ def SIDRA2pandas(cod_mun,cod_cultura):
     data2.Ano = pd.to_datetime(data2.Ano, format='%Y') # e aproveita e converte o ano para uma data
     
     return data2
+
+def plotCULTURA_CIDADE(data),**kwargs):
+    ''' data é um dataframe do pandas com o padrão de colunas ano, área plantada, área colhida, quantidade e rendimento.
+    Esta rotina apenas facilita o plot
+    '''
+    
+    titulo = kwargs.get('titulo','Aqui vai seu título (fonte: PAM IBGE)')
+    
+    # um simples gráfico combinado, dividido em 2 subplots, com titulo e com tudo
+
+    fig, (ax1,ax2) = plt.subplots(1,2,figsize=(15,6))
+
+    # os eixos ax1 é o da esquerda e o ax2 é o da direita.
+    ax1.plot(data['Ano'],data['A.plantada'],'-sr',label='Área Plantada')
+    ax1.plot(data['Ano'],data['A.colhida'],'-ob',label='Área Colhida')
+    ax1.legend()
+
+    ax3 = ax2.twinx() # este comando é um eixo y secundário, porque as unidades são diferentes
+    ax2.plot(data['Ano'],data['Rendimento'],'-sg',label='Rendimento')
+    ax3.plot(data['Ano'],data['Q.colhida'],'-oy',label='Quantidade colhida')
+
+    # labels
+    ax1.set_xlabel('Ano')
+    ax2.set_xlabel('Ano')
+    ax1.set_ylabel('Área em Ha')
+    ax2.set_ylabel('Rendimento em Kg/Ha')
+    ax3.set_ylabel('Quantidade em Ton')
+
+    #gambiarra para plotar as legendas em eixo duplo
+    lines, labels = ax2.get_legend_handles_labels()
+    lines2, labels2 = ax3.get_legend_handles_labels()
+    ax3.legend(lines + lines2, labels + labels2, loc=0)
+
+
+    fig.suptitle(titulo, fontsize=18)
+    plt.show()
+    return
