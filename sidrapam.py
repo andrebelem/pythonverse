@@ -76,14 +76,14 @@ def get_pam(municipios,cod_municipios,produtos,cod_produtos,**kwargs):
                 qtdecol = rawdata.iloc[i+2, 2]
                 rend = rawdata.iloc[i+3, 2]
                 extract.append({'Ano':ano,'A.Plantada':aplan,'A.Colhida':acolh,
-                            'QtdeColhida':qtdecol,'Redimento':rend})
+                            'QtdeColhida':qtdecol,'Rendimento':rend})
                 
             data = pd.DataFrame(extract)
             data['Ano'] = pd.to_numeric(data.loc[:,'Ano'], errors='coerce', downcast='integer')
             data['A.Plantada'] = pd.to_numeric(data.loc[:,'A.Plantada'], errors='coerce')
             data['A.Colhida'] = pd.to_numeric(data.loc[:,'A.Colhida'], errors='coerce')
             data['QtdeColhida'] = pd.to_numeric(data.loc[:,'QtdeColhida'], errors='coerce')
-            data['Redimento'] = pd.to_numeric(data.loc[:,'Redimento'], errors='coerce')            
+            data['Rendimento'] = pd.to_numeric(data.loc[:,'Redimento'], errors='coerce')            
 
             data['Produto'] = produtos[ii]
             data['Cod.Produto'] = cod_produto
