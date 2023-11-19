@@ -83,7 +83,7 @@ def get_pam(municipios,cod_municipios,produtos,cod_produtos,**kwargs):
             data['A.Plantada'] = pd.to_numeric(data.loc[:,'A.Plantada'], errors='coerce')
             data['A.Colhida'] = pd.to_numeric(data.loc[:,'A.Colhida'], errors='coerce')
             data['QtdeColhida'] = pd.to_numeric(data.loc[:,'QtdeColhida'], errors='coerce')
-            data['Rendimento'] = pd.to_numeric(data.loc[:,'Redimento'], errors='coerce')            
+            data['Rendimento'] = pd.to_numeric(data.loc[:,'Rendimento'], errors='coerce')            
 
             data['Produto'] = produtos[ii]
             data['Cod.Produto'] = cod_produto
