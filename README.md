@@ -3,6 +3,12 @@ Some interesting solutions for a "python being"
 
 In January 2021 (That's right! So recently) I started my walk through the pythonverse and I fall in love every day with the multitude of things I can do with python. As life is an eternal learning experience and there is not much time and memory left to store everything we experience, this repository will be the basis of a series of notebooks with simple and quick solutions, thinking that other python beings may need help.
 Much of the content has been developed exclusively for use in COLAB, and most of them will work in your local version of jupyter as well.
+---
+# Pythonverse
+Algumas soluções interessantes para um "ser python"
+
+Em janeiro de 2021 (Isso mesmo! Tão recentemente) comecei minha jornada pelo pythonverse e me apaixono a cada dia pela infinidade de coisas que posso fazer com Python. Como a vida é uma experiência de aprendizado eterno e não há muito tempo nem memória para armazenar tudo o que experimentamos, este repositório será a base de uma série de notebooks com soluções simples e rápidas, pensando que outros seres python podem precisar de ajuda.
+Grande parte do conteúdo foi desenvolvido exclusivamente para uso no COLAB, e a maioria funcionará em sua versão local do Jupyter também.
 
 ---
 # teaching
