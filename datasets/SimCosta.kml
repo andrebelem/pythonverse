@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>RS-1</name>
+      <description>Instrumento: Boia</description>
+      <Point>
+        <coordinates>-52.105556,-32.023611</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LEOC</name>
+      <description>Instrumento: Maregrafo</description>
+      <Point>
+        <coordinates>-52.161944,-32.068889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RS-5</name>
+      <description>Instrumento: Boia</description>
+      <Point>
+        <coordinates>-52.025,-32.295278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RJ-3</name>
+      <description>Instrumento: Boia</description>
+      <Point>
+        <coordinates>-43.174444,-22.983056</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RJ-4</name>
+      <description>Instrumento: Boia</description>
+      <Point>
+        <coordinates>-43.150278,-22.971667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ES-1</name>
+      <description>Instrumento: Boia</description>
+      <Point>
+        <coordinates>-39.769167,-19.686389</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BA-1</name>
+      <description>Instrumento: Boia</description>
+      <Point>
+        <coordinates>-38.541667,-12.989444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BA-2</name>
+      <description>Instrumento: Correntômetro</description>
+      <Point>
+        <coordinates>-37.975,-12.603333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BA_TD1</name>
+      <description>Instrumento: Tidbit</description>
+      <Point>
+        <coordinates>-38.598611,-13.094167</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rio Grande 2</name>
+      <description>Instrumento: Maregrafo</description>
+      <Point>
+        <coordinates>-52.093889,-32.166667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramandaí</name>
+      <description>Instrumento: Maregrafo</description>
+      <Point>
+        <coordinates>-50.128889,-30.005</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paranaguá</name>
+      <description>Instrumento: Maregrafo</description>
+      <Point>
+        <coordinates>-48.525556,-25.502222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pontal do Sul</name>
+      <description>Instrumento: Maregrafo</description>
+      <Point>
+        <coordinates>-48.366111,-25.551944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ilhabela</name>
+      <description>Instrumento: Maregrafo</description>
+      <Point>
+        <coordinates>-45.354722,-23.773611</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DHN</name>
+      <description>Instrumento: Maregrafo</description>
+      <Point>
+        <coordinates>-43.132222,-22.884722</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ribamar</name>
+      <description>Instrumento: Maregrafo</description>
+      <Point>
+        <coordinates>-44.051667,-2.563333</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
