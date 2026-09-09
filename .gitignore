@@ -1,2 +1,8 @@
 .ipynb_checkpoints
 PPA_versus_PCA_eis_a_questao.ipynb
+
+# Graphify: ignore generated/intermediate files, keep final reports
+graphify-out/*
+!graphify-out/GRAPH_REPORT.md
+!graphify-out/graph.html
+!graphify-out/graph.json
